@@ -7,9 +7,9 @@ Usage
 
 Basic Usage:
 
-	//	Create and start a watcher..
-
 ```javascript
+//	Create and start a watcher..
+
 var watcher = new ElementWatcher().start();
 
 //	Start watching for any anchors created in the body of the document
