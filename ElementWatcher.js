@@ -109,7 +109,7 @@ var ElementWatcher = function(contentDocument){
 	};
 
 	var createObserver = function(){
-		var observer = new MutationObserver(function(mutations){
+		observer = new MutationObserver(function(mutations){
 			mutations.forEach(function(mutation){
 				var addedNodes = mutation.addedNodes;
 
